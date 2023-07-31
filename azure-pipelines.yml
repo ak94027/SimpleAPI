@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImage: 'windows-latest'
 
 variables:
   buildConfiguration: 'Release'
@@ -34,3 +34,4 @@ steps:
 
 - task: PublishBuildArtifacts@1
   displayName: 'publish artifacts'
+  
